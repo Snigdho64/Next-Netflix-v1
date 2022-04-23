@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#141414] text-white !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600;
+  }
+  header {
+    @apply fixed top-0 z-10 flex w-full items-center justify-between;
+  }
+}
+
+.MuiBackdrop-root {
+  @apply hidden h-0 w-0;
+}
+
+/* Custom CLassnames */
+@layer components {
+  .headerLink {
+    @apply cursor-pointer text-sm font-light text-[#e5e5e5] transition hover:scale-105 hover:text-[#b3b3b3] md:text-base xl:text-lg;
+  }
+  .headerIcon {
+    @apply h-6 w-6 cursor-pointer rounded transition hover:scale-105 hover:text-[#b3b3b3] lg:h-8 lg:w-8;
+  }
+  .icon {
+    @apply h-6 w-6 cursor-pointer transition lg:h-8 lg:w-8;
+  }
+  .bannerIcon {
+    @apply flex items-center gap-x-2 rounded px-5 py-1.5 text-sm font-semibold text-black hover:opacity-75 md:py-2.5 md:px-8 md:text-xl;
+  }
+  .loginInput {
+    @apply min-w-[250px] max-w-max rounded bg-[#333333] px-2 py-4 tracking-wider text-[#e5e5e5] placeholder-[gray] outline-none focus:bg-[#454545] sm:w-full sm:min-w-[300px] sm:rounded-md sm:text-base sm:font-semibold lg:min-w-[350px] lg:rounded-lg;
+  }
+  .modalButton {
+    @apply grid place-items-center rounded-full transition hover:scale-105 hover:bg-black/30;
+  }
+  .modalIcon {
+    @apply h-6 w-6 p-1 text-white transition hover:text-[#ccc] md:h-8 md:w-8 lg:h-9 lg:w-9;
+  }
+}
