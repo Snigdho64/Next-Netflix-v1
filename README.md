@@ -1,23 +1,13 @@
-# Next.js + Tailwind CSS Example
+# Next.js + Tailwind CSS + Firebase + TMDB API + MUI
+## Resposive Ui/UX Design Netflix Clone with Api Data Fetching inline youtube video playback 
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Google Auth Providor
+## TMDB API FOR MOVIE DATA
+## Inline Video Playback with custom REact Video Player
+## Catgorized Movie and Series Display
 
-## Deploy your own
+# Snapshots
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+<img width="960" alt="Capture" src="https://user-images.githubusercontent.com/79567044/171095786-66b77154-4333-46fd-bd0b-460e955b6ffb.PNG">
+<img width="960" alt="next-netflix-2" src="https://user-images.githubusercontent.com/79567044/171095686-f5bbec65-78be-4662-8e35-244dbed35d57.png">
+<img width="960" alt="netflix-clone-2" src="https://user-images.githubusercontent.com/79567044/171095692-69cdc5f7-356b-4e6a-b3a4-106f23cf7779.png">
